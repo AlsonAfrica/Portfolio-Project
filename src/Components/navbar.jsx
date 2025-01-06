@@ -7,9 +7,11 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', href: '/' },
     { name: 'Skills', href: '/skills' },
-    { name: 'Projects', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Assessments', href: '#' },
+    { name: 'Feedback and Reflections', href: '#' },
+    { name: 'Goals', href: '#' },
+    { name: 'Contacts', href: '#' },
     { name: 'Resume', href: '../Resume/Nhlakanipho_Alson_Radebe_Resume_2025.pdf', download:true }
   ];
 

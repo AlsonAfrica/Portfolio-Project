@@ -53,7 +53,9 @@ const HomePage = () => {
               I aim to build applications that not only push the boundaries of technology but also make a positive impact on the health industry as a whole.
               I believe that by combining my background in health sciences with my skills in technology, I can contribute to creating innovative solutions that improve lives and promote wellness.
               </p>
+              <span>CodeTribe Location: Soweto</span>
             </div>
+            
 
             {/* Animated Decorative Elements */}
             <div className="absolute -bottom-8 -left-8 animate-bounce">
