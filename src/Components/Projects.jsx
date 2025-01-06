@@ -74,7 +74,10 @@ const ProjectGrid = () => {
         "Payment integration",
         "Order tracking"
       ],
-      challenges: [
+      TeamMembers:[
+        "Nhlakanipho Radebe", "Oscar Poco"
+      ],
+      CollaborationExperience: [
         "Implementing real-time inventory updates",
         "Optimizing database queries for large product catalogs"
       ],
@@ -237,7 +240,20 @@ const ProjectGrid = () => {
                 </div>
               </div>
 
-              {/* Key Features */}
+              {/* Team Members */}
+              <div>
+                <h4 className="font-semibold text-gray-800 flex items-center mb-2">
+                  <Boxes className="w-4 h-4 mr-2" />
+                  Team Memembers
+                </h4>
+                <ul className="list-disc list-inside text-gray-600 text-sm">
+                  {project.TeamMembers.map((feature, i) => (
+                    <li key={i}>{feature}</li>
+                  ))}
+                </ul>
+              </div>
+
+             {/* Key Features */}
               <div>
                 <h4 className="font-semibold text-gray-800 flex items-center mb-2">
                   <Boxes className="w-4 h-4 mr-2" />
@@ -254,10 +270,10 @@ const ProjectGrid = () => {
               <div>
                 <h4 className="font-semibold text-gray-800 flex items-center mb-2">
                   <AlertCircle className="w-4 h-4 mr-2" />
-                  Challenges
+                  Collaboration Experience
                 </h4>
                 <ul className="list-disc list-inside text-gray-600 text-sm">
-                  {project.challenges.map((challenge, i) => (
+                  {project.CollaborationExperience.map((challenge, i) => (
                     <li key={i}>{challenge}</li>
                   ))}
                 </ul>

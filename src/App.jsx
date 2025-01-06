@@ -3,6 +3,7 @@ import Navbar from './Components/navbar'
 import HomePage from './Components/homepage'
 import SkillsMatrix from './Components/skillsmatrix'
 import ProjectGrid from './Components/Projects'
+import AssessmentTable from './Components/Assessments'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/skills" element={<SkillsMatrix/>}/>
         <Route path="/projects" element={<ProjectGrid/>}/>
+        <Route path="/assessments" element={<AssessmentTable/>}/>
       </Routes>
     </Router>
     </>

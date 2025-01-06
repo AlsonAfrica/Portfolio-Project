@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Paintbrush,Crown } from 'lucide-react';
+import { Menu, X, Crown } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'Skills', href: '/skills' },
     { name: 'Projects', href: '/projects' },
-    { name: 'Assessments', href: '#' },
+    { name: 'Assessments', href: '/assessments' },
     { name: 'Feedback and Reflections', href: '#' },
     { name: 'Goals', href: '#' },
     { name: 'Contacts', href: '#' },
