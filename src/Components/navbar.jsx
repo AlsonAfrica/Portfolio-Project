@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Menu, X, Paintbrush } from 'lucide-react';
+import { Menu, X, Paintbrush,Crown } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'Portfolio', href: '#' },
-    { name: 'Services', href: '#' },
+    { name: 'Skills', href: '/skills' },
+    { name: 'Projects', href: '#' },
     { name: 'About', href: '#' },
     { name: 'Contact', href: '#' },
     { name: 'Resume', href: '../Resume/Nhlakanipho_Alson_Radebe_Resume_2025.pdf', download:true }
@@ -20,9 +20,9 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <Paintbrush className="h-8 w-8 text-indigo-600" />
+              <Crown className="h-8 w-8 text-indigo-600" />
               <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                ArtStudio
+                ALSON
               </span>
             </div>
           </div>
