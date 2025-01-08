@@ -1,90 +1,9 @@
 import React from 'react';
 import { Github, ExternalLink, Code, Boxes, AlertCircle } from 'lucide-react';
+import projects from '../Resources/projects';
+import GroupProjects from '../Resources/groupprojects';
 
 const ProjectGrid = () => {
-  const projects = [
-    {
-      title: "E-Commerce Platform",
-      image: "/api/placeholder/400/300",
-      description: "A full-featured e-commerce platform with product management, cart functionality, and secure checkout process.",
-      techStack: ["React", "Node.js", "MongoDB", "Express", "Redux"],
-      keyFeatures: [
-        "User authentication",
-        "Product filtering",
-        "Payment integration",
-        "Order tracking"
-      ],
-      challenges: [
-        "Implementing real-time inventory updates",
-        "Optimizing database queries for large product catalogs"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
-    },
-    {
-      title: "Task Management App",
-      image: "/api/placeholder/400/300",
-      description: "A collaborative task management application with real-time updates and team workspace features.",
-      techStack: ["Vue.js", "Firebase", "Tailwind CSS", "Node.js"],
-      keyFeatures: [
-        "Real-time collaboration",
-        "Task categorization",
-        "File attachments",
-        "Progress tracking"
-      ],
-      challenges: [
-        "Managing real-time data synchronization",
-        "Implementing drag-and-drop functionality"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
-    },
-    {
-      title: "Weather Dashboard",
-      image: "/api/placeholder/400/300",
-      description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-      techStack: ["React", "OpenWeather API", "Chart.js", "Styled Components"],
-      keyFeatures: [
-        "5-day forecast",
-        "Interactive weather maps",
-        "Location search",
-        "Weather alerts"
-      ],
-      challenges: [
-        "Handling API rate limits",
-        "Optimizing weather data visualization"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
-    }
-  ];
-
-
-  // Group Projects
-  const GroupProjects = [
- 
-    {
-      title: "Restaurant App",
-      image: "/api/placeholder/400/300",
-      description: "A full-featured e-commerce platform with product management, cart functionality, and secure checkout process.",
-      techStack: ["React", "Node.js", "MongoDB", "Express", "Redux"],
-      keyFeatures: [
-        "User authentication",
-        "Product filtering",
-        "Payment integration",
-        "Order tracking"
-      ],
-      TeamMembers:[
-        "Nhlakanipho Radebe", "Oscar Poco"
-      ],
-      CollaborationExperience: [
-        "Implementing real-time inventory updates",
-        "Optimizing database queries for large product catalogs"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
-    },
-  ]
 
   return (
     <div className="max-w-7xl mx-auto p-6">

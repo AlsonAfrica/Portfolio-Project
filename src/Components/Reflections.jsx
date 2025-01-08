@@ -5,7 +5,7 @@ const FeedbackReflections = () => {
   // Previous feedbacks array remains the same
   const feedbacks = [
     {
-      quote: "Nhlakanipho demonstrates exceptional problem-solving abilities and a keen eye for design. Her work on the e-commerce project showed great attention to detail and innovative solutions to complex challenges. She consistently delivers high-quality code and maintains excellent documentation practices.",
+      quote: "Nhlakanipho demonstrates exceptional problem-solving abilities and a keen eye for design. His work on the e-commerce project showed great attention to detail and innovative solutions to complex challenges. He consistently delivers high-quality code and maintains excellent documentation practices.",
       facilitator: "Mahlatse Serathi",
       role: "Facilitator",
       date: "January 2024"

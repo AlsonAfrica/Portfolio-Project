@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: 'Projects', href: '/projects' },
     { name: 'Assessments', href: '/assessments' },
     { name: 'Feedback and Reflections', href: '/reflections' },
-    { name: 'Contacts', href: '#' },
+    { name: 'Contacts', href: '/contacts' },
     { name: 'Resume', href: '../Resume/Nhlakanipho_Alson_Radebe_Resume_2025.pdf', download:true }
   ];
 
