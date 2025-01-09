@@ -2,50 +2,69 @@
 
 const projects = [
     {
-      title: "UI Challenge",
-      image: "/api/placeholder/400/300",
-      description: "A full-featured e-commerce platform with product management, cart functionality, and secure checkout process.",
+      title: "X-pace UI Challenge",
+      image: "/src/ProjectPics/UI.png",
+      description: "The Xpace Landing Page is a modern and visually appealing web page designed to introduce a team collaboration platform called Xpace",
       techStack: ["React.JS", "CSS", "HTML","JavaScript"],
       keyFeatures: [
-        "User authentication",
-        "Product filtering",
-        "Payment integration",
-        "Order tracking"
+        "Responssive Layout",
+        "Grid Layout",
       ],
       challenges: [
-        "Implementing real-time inventory updates",
-        "Optimizing database queries for large product catalogs"
+        "Layout Responsiveness",
+        "Element Alignment within containers"
       ],
       demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
+      githubLink: "https://github.com/AlsonAfrica/UI-design.git"
     },
 
 
     {
-      title: "Recipe-App",
+      title: "Yum-Yard Recipe App",
       image: "/src/ProjectPics/recipejs.png",
-      description: "A collaborative task management application with real-time updates and team workspace features.",
-      techStack: ["React.JS", "CSS", "HTML","JavaScript"],
+      description: "The Recipe App is a dynamic web application built using React, Vite, and Material-UI, designed to help users explore and manage recipes",
+      techStack: ["React.JS", "CSS", "HTML","JavaScript","Json-Server"],
       keyFeatures: [
-        "Real-time collaboration",
-        "Task categorization",
-        "File attachments",
-        "Progress tracking"
+        "Search Recipes",
+        "View Recipe Details",
+        "Responsive Design",
+        "Authentication and Authorization"
       ],
       challenges: [
-        "Managing real-time data synchronization",
-        "Implementing drag-and-drop functionality"
+        "Authentication and Authorization using Json-Server",
+        "Responsive design",
+        "State Management"
       ],
       demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
+      githubLink: "https://github.com/AlsonAfrica/React-Recipe-App.git"
     },
 
 
     {
       title: "To-do-App-SQLite",
-      image: "/api/placeholder/400/300",
+      image: "/src/ProjectPics/sqliteto-do.png",
+      description: "A modern, feature-rich Todo application built with React.js, Node.js, and SQLite that helps you organize your tasks efficiently.",
+      techStack: ["React", "SQLite", "CSS", "HTML","JavaScript","Node.js"],
+      keyFeatures: [
+        "Secure user registration and login system",
+        "To do's stored in SQlite for data persistance",
+        "Perform CRUD operations on added to do's",
+        "Task Management with Date, Time andd priority scheduling",
+        "Smart search functionality"
+      ],
+      challenges: [
+        "Storing and Retrieving tasks",
+        "Data management (State Management)",
+      ],
+      demoLink: "https://demo-link.com",
+      githubLink: "https://github.com/AlsonAfrica/To-do-App-SQLite.git"
+    },
+
+    {
+      title: "Registration App",
+      image: "/src/ProjectPics/node-registration.png",
       description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-      techStack: ["React", "SQLite", "CSS", "HTML","JavaScript"],
+      techStack: ["Node.JS","Express","Cors","Postman","JavaScript","Firebase","React","HTML","CSS","Material-UI"],
       keyFeatures: [
         "5-day forecast",
         "Interactive weather maps",
@@ -57,102 +76,103 @@ const projects = [
         "Optimizing weather data visualization"
       ],
       demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/username/project"
+      githubLink: "https://github.com/AlsonAfrica/Admin-Registration-Node.git"
     },
 
     {
         title: "React-ShoppingApp",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/shoppingApp.png",
+        description: "The Shopping List App is a web-based application designed to help users manage and organize their shopping items efficiently",
         techStack: ["React", "SQLite", "CSS", "HTML","Redux","Material-UI","JavaScript"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "User-Friendly Interface: Simple and intuitive UI with Material-UI integration for a sleek look and feel.",
+          "State Management through Redux",
+          "Perform Crud Operations on added items with added details such as, name and quantity",
+          "Sort added items"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "State Management through Redux",
+          "Responsive Design"
         ],
-        demoLink: "https://demo-link.com",
-        githubLink: "https://github.com/username/project"
+        demoLink: "https://github.com/AlsonAfrica/React-ShoppingApp.git",
+        githubLink: "https://github.com/AlsonAfrica/React-ShoppingApp.git"
       },
 
       {
         title: "Weather-App",
         image: "/src/ProjectPics/weather.png",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-        techStack: ["React","HTML","Redux","Material-UI","JavaScript","Axios","React Router","React-Chartjs-2"],
+        description: "The Weather App is designed to provide real-time weather information, forecasts, and weather alerts with an emphasis on location-based data.",
+        techStack: ["React","HTML","Redux","Material-UI","JavaScript","Axios","React Router","React-Chartjs-2","Open Weather API"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Real-time Weather Information",
+          "Location-Based Forecasting",
+          "Customisation switch in temperature units  (Celsius and Fahrenheit)",
+          "Privacy & Security"
         ],
         challenges: [
           "Handling API rate limits",
           "Optimizing weather data visualization"
         ],
-        demoLink: "https://demo-link.com",
-        githubLink: "https://github.com/username/project"
+        demoLink: "https://github.com/AlsonAfrica/Weather-App.git",
+        githubLink: "https://github.com/AlsonAfrica/Weather-App.git"
       },
 
       {
         title: "Hotel-React",
         image: "/src/ProjectPics/hotel.png",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        description: "A modern, feature-rich hotel management and booking application built with React. This application provides a seamless experience for users to explore rooms, manage bookings, and interact with hotel services through an intuitive interface optimized for both desktop and mobile platforms.",
         techStack: ["React","HTML","CSS","Redux-ToolKit","Material-UI","JavaScript","Firebase","React Router","React-Chartjs-2","React-stripe-js","Icons-Material"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Room Management",
+          "User Experience",
+          "Authentication & Security",
+          "Social Features",
+          "Booking & Payments",
+          "Central Management System"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Firebase Integration",
+          "Payment integration",
+          "Data management through Redux"
         ],
-        demoLink: "https://demo-link.com",
-        githubLink: "https://github.com/username/project"
+        demoLink: "https://github.com/AlsonAfrica/Hotel-React.git",
+        githubLink: "https://github.com/AlsonAfrica/Hotel-React.git"
       },
 
       {
         title: "Basic Express Server",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-        techStack: ["Node.JS","Cors","Express"],
+        image: "/src/ProjectPics/nodeserver.png",
+        description: "This project is a simple Node.js server built with Express.js. The server listens on a specified port and includes basic functionality such as handling CORS, parsing JSON requests, and responding with simple API endpoints.",
+        techStack: ["Node.JS","Cors","Express","Postman"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Handling CORS",
+          "Parsing JSON requests",
+          "Responding with simple API endpoints",
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Setting up node environment",
         ],
-        demoLink: "https://demo-link.com",
-        githubLink: "https://github.com/username/project"
+        demoLink: "https://github.com/AlsonAfrica/Basic-Node-Server.git",
+        githubLink: "https://github.com/AlsonAfrica/Basic-Node-Server.git"
       },
 
       {
         title: "Quizz-App-Node",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-        techStack: ["Node.JS"],
+        image: "/src/ProjectPics/Quiz.png",
+        description: "This is a simple command-line quiz application built using Node.js. It asks users a series of questions, tracks the time they take to answer each question, and calculates a total score at the end of the quiz.",
+        techStack: ["Node.JS","Realine Sync"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Multiple Questions",
+          "Time Limits",
+          "Score Calculation",
+          "Input Validation"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Handling Questions and Timer Asynchronously",
+          "Fetching questions from the server"
         ],
-        demoLink: "https://demo-link.com",
-        githubLink: "https://github.com/username/project"
+        demoLink: "https://github.com/AlsonAfrica/Quizz-App-Node.git",
+        githubLink: "https://github.com/AlsonAfrica/Quizz-App-Node.git"
       },
 
       {
@@ -176,84 +196,85 @@ const projects = [
 
       {
         title: "Node-Card-Game-Html",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/CardColor.png",
+        description: "This project implements a card guessing game using Node.js. The goal of the game is for users to match all pairs of cards. The game will feature 36 cards (6x6 grid), and users select two cards at a time. If the cards match, they remain open; if they do not match, they will flip back to hide their contents",
         techStack: ["Node.JS","JavaScript", "HTML","CSS"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Dynamic Card Setup",
+          "Reset Functionality",
+          "Winning Pop-up",
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Setting the timer to run immediately when the player selects a card",
+          "Flipping cards",
+          "Matching the cards"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Node-Card-Game-Html.git",
         githubLink: "https://github.com/AlsonAfrica/Node-Card-Game-Html.git"
       },
 
       {
         title: "Node-Server",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/nodeS.png",
+        description: "This project demonstrates how to deploy a simple Node.js server on a free hosting provider. The server is built using either the HTTP module or Express, and is deployed on a service like Vercel.",
         techStack: ["Node.JS","Vercel(Hosting Service)"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
+          "A simple Node.js server with basic routing.",
+          "Basic testing with a Hello World route and greet route that displays (Hello World)",
           "Location search",
           "Weather alerts"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "None",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Node-Server.git",
         githubLink: "https://github.com/AlsonAfrica/Node-Server.git"
       },
 
       {
         title: "Node.js-Books-Directory",
         image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        description: "This is a simple Node.js API for managing a book directory. It allows users to perform CRUD operations (Create, Read, Update, and Delete) using the built-in http module. The API handles JSON data exchange and supports the following HTTP methods: GET, POST, PUT, PATCH, and DELETE.",
         techStack: ["Node.JS","Postman","JavaScript"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Add a new book to the directory",
+          "Retrieve a list of all books or a specific book by ID",
+          "Update book details",
+          "Delete a book from the directory"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "None",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Node.js-Books-Directory.git",
         githubLink: "https://github.com/AlsonAfrica/Node.js-Books-Directory.git"
       },
 
       {
         title: "Node-Registration-Firebase",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/node-registration.png",
+        description: "This is an Employee Management System, a web application designed to simplify and streamline the management of employee records. It allows organizations to efficiently handle employee information, track attendance, and manage performance evaluations using Node.js and Firebase",
         techStack: ["Node.JS","Express","Cors","Postman","JavaScript","Firebase","React","HTML","CSS","Material-UI"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Authentication and Authorization",
+          "Employee Dashboard/Home Screen:To view existing Employees",
+          "Firebase for Authentication",
+          "Add Employees",
+          "Search Functionality: Filter added employees",
+          "Crud operations on added employees",
+          "Logout"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Handling API routes for different operations",
+          "Image retrival and storage through firebase live storage"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Node-Registration-Firebase.git",
         githubLink: "https://github.com/AlsonAfrica/Node-Registration-Firebase.git"
       },
 
       {
         title: "Admin-Registration-Node",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/node-registration.png",
+        description: "This is an Employee Management System, a web application designed to simplify and streamline the management of employee records. It allows organizations to efficiently handle employee information, track attendance, and manage performance evaluations. The app provides a user-friendly interface for HR departments to maintain accurate and up-to-date employee data.",
         techStack: ["Node.JS","Express","Cors","Postman","JavaScript","Firebase","React","HTML","CSS","Material-UI"],
         keyFeatures: [
           "5-day forecast",
