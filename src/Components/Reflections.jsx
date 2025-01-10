@@ -15,17 +15,15 @@ const FeedbackReflections = () => {
 
   const goals = {
     shortTerm: [
-      "Master React Query and Redux Toolkit",
-      "Complete AWS Cloud Practitioner certification",
-      "Build three full-stack applications"
+      "Master React.JS and Redux Toolkit",
+      "Understand how the server side communicates with client side",
+      "Become familiar with CSS libaries and TypeScript"
     ],
     mediumTerm: [
-      "Transition to senior developer role",
-      "Lead a major project implementation",
-      "Mentor junior developers"
+      "Transition to a job ready junior developer",
     ],
     longTerm: [
-      "Become a technical architect",
+      "Become a Competent Full Stack developer",
       "Contribute to open source projects",
       "Establish a tech community"
     ]
@@ -88,10 +86,11 @@ const FeedbackReflections = () => {
           Key learning points include:
         </p>
         <ul className="list-disc list-inside text-gray-600 mt-2 space-y-2">
-          <li>Strengthened technical documentation practices</li>
+          <li>Strengthened technical skills (writting clean code that is maintainable)</li>
           <li>Enhanced project architecture planning</li>
           <li>Improved cross-team collaboration skills</li>
           <li>Developed stronger debugging methodologies</li>
+          <li>Work on my Confidence and Critical thinking</li>
         </ul>
       </div>
 

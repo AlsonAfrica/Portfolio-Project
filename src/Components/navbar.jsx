@@ -17,14 +17,17 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-lg sticky fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          {/* Logo Section */}
-          <div className="flex items-center">
+      <div className="flex justify-between h-16">
+        {/* Logo Section */}
+          <div className="flex flex-col justify-center">
             <div className="flex-shrink-0 flex items-center">
               <Crown className="h-8 w-8 text-indigo-600" />
               <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 ALSON
               </span>
+            </div>
+            <div className="text-xs text-gray-500 -mt-1 ">
+              Last updated: January 10, 2025
             </div>
           </div>
 

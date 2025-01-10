@@ -215,7 +215,7 @@ const projects = [
 
       {
         title: "Node-Server",
-        image: "/src/ProjectPics/nodeS.png",
+        image: "/src/ProjectPics/nodeBase.png",
         description: "This project demonstrates how to deploy a simple Node.js server on a free hosting provider. The server is built using either the HTTP module or Express, and is deployed on a service like Vercel.",
         techStack: ["Node.JS","Vercel(Hosting Service)"],
         keyFeatures: [
@@ -233,7 +233,7 @@ const projects = [
 
       {
         title: "Node.js-Books-Directory",
-        image: "/api/placeholder/400/300",
+        image: "/src/ProjectPics/nodeBase.png",
         description: "This is a simple Node.js API for managing a book directory. It allows users to perform CRUD operations (Create, Read, Update, and Delete) using the built-in http module. The API handles JSON data exchange and supports the following HTTP methods: GET, POST, PUT, PATCH, and DELETE.",
         techStack: ["Node.JS","Postman","JavaScript"],
         keyFeatures: [
@@ -292,172 +292,187 @@ const projects = [
 
       {
         title: "Mongo-Lesson-One",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/mongo.png",
+        description: "MongoDB is a noSQL database, which means it stores data differently than traditional relational database, thus it stores data in documents instead of tables and rows",
         techStack: ["Mongo"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Data base creation",
+          "Store Data",
+          "Retrieve Data",
+          "Read Data",
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Setting up Mongo Compass",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Mongo-Lesson-One.git",
         githubLink: "https://github.com/AlsonAfrica/Mongo-Lesson-One.git"
       },
 
       {
         title: "MongoDB-Library-Management-System",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/mongo.png",
+        description: "This project seeks to emphasize the use of commands to perform CRUD (CREATE, READ, UPDATE AND DELETE) operations in Mongo, it leverages both the use of creating a Database, collections and documents along with manipulating data in the documents.",
         techStack: ["Mongo","JavaScript"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Data base creation",
+          "Collection creation and data insertion",
+          "Crud operations on the created data",
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "None",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/MongoDB-Library-Management-System.git",
         githubLink: "https://github.com/AlsonAfrica/MongoDB-Library-Management-System.git"
       },
 
       {
         title: "Recipe-App-Node-Mongo-",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/node-mongo.png",
+        description: "This project implements a RESTful API for a recipe application using Node.js, Express, and MongoDB. The API allows users to create, retrieve, update, and delete recipes, and it handles errors gracefully. It also supports pagination for efficiently handling large datasets",
         techStack: ["Mongo","JavaScript","Node.Js","Cors","Pagination","Postman"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "CRUD operations (Create, Read, Update, Delete) for recipe data.",
+          "Data validation using Mongoose schema.",
+          "Pagination for listing large datasets.",
+          "Comprehensive error handling with informative error messages",
+          "Testing endpoints via Postman"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Pagination",
+          "Data validation"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Recipe-App-Node-Mongo-.git",
         githubLink: "https://github.com/AlsonAfrica/Recipe-App-Node-Mongo-.git"
       },
 
       {
         title: "BirthdayCard24",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/birthdaycard.png",
+        description: "Built in React Native, The Birthday Card App allows users to create custom birthday cards with personalized text, images, and decorations. Users can design unique cards, add custom messages, and enhance their cards with various creative elements.",
         techStack: ["React Native","CSS","JavaScript","Expo"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Card Creation",
+          "Text Editing",
+          "Image and Decoration Support",
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Data handling",
+          "User Interface design"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/BirthdayCard24.git",
         githubLink: "https://github.com/AlsonAfrica/BirthdayCard24.git"
       },
 
       {
         title: "Memo-Wave",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/memowave.png",
+        description: "This Audio Recording App is a digital journal designed for voice recording. The app allows users to record audio notes, play them back, delete unwanted notes, and manage voice note storage. The app is simple to use and provides an efficient way to manage voice recordings.",
         techStack: ["React Native","CSS","JavaScript","Expo","Async-storage",],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Recording Functionality",
+          "List of Voice Notes",
+          "Playback Functionality",
+          "Delete Functionality",
+          "Create New Voice Note",
+          "Storage Management",
+          "Permissions Handling",
+          "Search Functionality"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Recording and storing the recorded note",
+          "Retrieving the recorded note",
+          "User Interface design"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Memo-Wave.git",
         githubLink: "https://github.com/AlsonAfrica/Memo-Wave.git"
       },
 
       {
         title: "Memo-Wave-Auth",
-        image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        image: "/src/ProjectPics/memowave.png",
+        description: "This project builds upon the previous Digital Journal App to create an enhanced Audio Recording App with additional features designed to improve user experience, security, and functionality.",
         techStack: ["React Native","CSS","JavaScript","Expo","Async-storage","Firebase"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
+          "Authetication and Authorization",
+          "Data sync to cloud",
+          "User Profile",
           "Location search",
-          "Weather alerts"
+          "Weather alerts",
+          "Recording Functionality",
+          "List of Voice Notes",
+          "Playback Functionality",
+          "Delete Functionality",
+          "Create New Voice Note",
+          "Storage Management",
+          "Permissions Handling",
+          "Search Functionality"
         ],
         challenges: [
-          "Handling API rate limits",
+          "Audio synchronization to cloud",
           "Optimizing weather data visualization"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Memo-Wave-Auth.git",
         githubLink: "https://github.com/AlsonAfrica/Memo-Wave-Auth.git"
       },
 
       {
         title: "Payment-Integration",
         image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        description: "This app demonstrates a step-by-step guide to integrating the Stripe payment gateway into your mobile app",
         techStack: ["React Native","Expo","JavaScript","CSS","React-Native-Paystack-Webview"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Secure payment processing using Stripe",
+          "Tokenization of sensitive payment information",
+          "Support for payment events (success, failure, cancellation)",
+          "User-friendly payment UI and confirmation messages"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Setting up stripe",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Payment-Integration.git",
         githubLink: "https://github.com/AlsonAfrica/Payment-Integration.git"
       },
 
       {
         title: "Gallery-Suite",
         image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        description: "The Gallery Application is a mobile app that allows users to view images, see their locations on a map using geolocation, and store metadata about each image in a local SQLite database. The application leverages geolocation features to tag images with their location and integrates a map view to display where the images were taken. SQLite is used for local data storage, ensuring fast and efficient data management.",
         techStack: ["React Native","Expo","JavaScript","CSS","React-native-maps","Expo-camera","Expo-sqlite","Expo-location"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Image Gallery",
+          "Geolocation Integration",
+          "Map Integration",
+          "SQLite Database",
+          "Search and Filter",
+          "Security and Permissions"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Setting up SQLite",
+          "Storing and retrieving data from the SQLite database",
+          "Managing data passing through components"
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/Gallery-Suite.git",
         githubLink: "https://github.com/AlsonAfrica/Gallery-Suite.git"
       },
 
       {
         title: "ShoppingApp",
         image: "/api/placeholder/400/300",
-        description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
+        description: "A React-based shopping list application that uses Redux for state management and provides a seamless experience for managing your shopping needs.",
         techStack: ["React Native","Expo","JavaScript","CSS","Lucide-React-Native","React-redux-toolkit"],
         keyFeatures: [
-          "5-day forecast",
-          "Interactive weather maps",
-          "Location search",
-          "Weather alerts"
+          "Create and manage shopping lists",
+          "Mark items as purchased",
+          "Edit item names and quantities",
+          "Perform Crud operations on added items",
+          "Persistent storage across sessions",
+          "Real-time user feedback and error handling,",
+          "Responsive and user-friendly interface"
         ],
         challenges: [
-          "Handling API rate limits",
-          "Optimizing weather data visualization"
+          "Managing data through redux",
         ],
-        demoLink: "https://demo-link.com",
+        demoLink: "https://github.com/AlsonAfrica/ShoppingApp.git",
         githubLink: "https://github.com/AlsonAfrica/ShoppingApp.git"
       },
 

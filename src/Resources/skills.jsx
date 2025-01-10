@@ -1,4 +1,4 @@
-import { Code, Globe, Palette, Database, Layout, Cpu } from 'lucide-react';
+import { Code, Globe, Palette, Database, Layout, Cpu,FileCode,Box,Layers } from 'lucide-react';
 
 const getProficiencyColor = (level) => {
     const colors = {
@@ -24,7 +24,19 @@ const skills = [
       examples: 'Responsive design, Animations, Custom properties',
     },
     {
+      name: 'Tailwind',
+      icon: <Palette className="w-8 h-8 text-blue-500" />,
+      proficiency: 'Beginner',
+      examples: 'Responsive design, Animations, Custom properties',
+    },
+    {
       name: 'JavaScript',
+      icon: <FileCode className="w-8 h-8 text-yellow-500" />,
+      proficiency: 'Intermediate',
+      examples: 'DOM manipulation, ES6+, Async programming, BackEnd (Node.JS)',
+    },
+    {
+      name: 'Redux-Toolkit',
       icon: <Code className="w-8 h-8 text-yellow-500" />,
       proficiency: 'Intermediate',
       examples: 'DOM manipulation, ES6+, Async programming, BackEnd (Node.JS)',
@@ -37,9 +49,9 @@ const skills = [
     },
     {
       name: 'React Native',
-      icon: <Database className="w-8 h-8 text-green-500" />,
+      icon: <Layout className="w-8 h-8 text-green-500" />,
       proficiency: 'Intermediate',
-      examples: 'REST APIs, Express.js, Cors, Database integration',
+      examples: 'Mobile Application Development',
     },
     {
       name: 'Node.js',
@@ -51,19 +63,31 @@ const skills = [
       name: 'Mongo',
       icon: <Cpu className="w-8 h-8 text-blue-700" />,
       proficiency: 'Beginner',
-      examples: 'Data analysis, Web scraping, Automation',
+      examples: 'Data Storage',
     },
     {
       name: 'Firebase',
       icon: <Cpu className="w-8 h-8 text-blue-700" />,
       proficiency: 'Beginner',
-      examples: 'Data analysis, Web scraping, Automation',
+      examples: 'Authentication and Authorization, Database, Hosting',
     },
     {
       name: 'Vercel',
-      icon: <Cpu className="w-8 h-8 text-blue-700" />,
+      icon: <Box className="w-8 h-8 text-blue-700" />,
       proficiency: 'Beginner',
-      examples: 'Data analysis, Web scraping, Automation',
+      examples: 'Application hosting',
+    },
+    {
+      name: 'Figma',
+      icon: <Cpu className="w-8 h-8 text-blue-700" />,
+      proficiency: 'Intermediate',
+      examples: 'Mobile and Web Application User Interface design',
+    },
+    {
+      name: 'Postman',
+      icon: <Layers className="w-8 h-8 text-blue-700" />,
+      proficiency: 'Intermediate',
+      examples: 'API Testing and Integration',
     },
   ];
 
