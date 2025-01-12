@@ -63,20 +63,20 @@ const projects = [
     {
       title: "Registration App",
       image: "/src/ProjectPics/node-registration.png",
-      description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
-      techStack: ["Node.JS","Express","Cors","Postman","JavaScript","Firebase","React","HTML","CSS","Material-UI"],
+      description: "This is an Employee Management System, a web application designed to simplify and streamline the management of employee records. It allows organizations to efficiently handle employee information, track attendance, and manage performance evaluations. The app provides a user-friendly interface for HR departments to maintain accurate and up-to-date employee data.",
+      techStack: ["JavaScript","React","HTML","CSS","Material-UI"],
       keyFeatures: [
-        "5-day forecast",
-        "Interactive weather maps",
-        "Location search",
-        "Weather alerts"
+        "Authentication and Authorization",
+        "Employee Dashboard",
+        "Employee Directory",
+        "Crud operations on added employees"
       ],
       challenges: [
-        "Handling API rate limits",
-        "Optimizing weather data visualization"
+        "Data Management",
+        "UI design"
       ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/AlsonAfrica/Admin-Registration-Node.git"
+      demoLink: "https://github.com/AlsonAfrica/React-App.git",
+      githubLink: "https://github.com/AlsonAfrica/React-App.git"
     },
 
     {
@@ -177,7 +177,7 @@ const projects = [
 
       {
         title: "Node.js-File-Manager",
-        image: "/api/placeholder/400/300",
+        image: "/src/ProjectPics/nodeBase.png",
         description: "An interactive weather dashboard with detailed forecasts, weather maps, and location-based updates.",
         techStack: ["Node.JS",],
         keyFeatures: [
@@ -417,7 +417,7 @@ const projects = [
 
       {
         title: "Payment-Integration",
-        image: "/api/placeholder/400/300",
+        image: "/src/ProjectPics/Payment.png",
         description: "This app demonstrates a step-by-step guide to integrating the Stripe payment gateway into your mobile app",
         techStack: ["React Native","Expo","JavaScript","CSS","React-Native-Paystack-Webview"],
         keyFeatures: [
@@ -435,7 +435,7 @@ const projects = [
 
       {
         title: "Gallery-Suite",
-        image: "/api/placeholder/400/300",
+        image: "/src/ProjectPics/camera.png",
         description: "The Gallery Application is a mobile app that allows users to view images, see their locations on a map using geolocation, and store metadata about each image in a local SQLite database. The application leverages geolocation features to tag images with their location and integrates a map view to display where the images were taken. SQLite is used for local data storage, ensuring fast and efficient data management.",
         techStack: ["React Native","Expo","JavaScript","CSS","React-native-maps","Expo-camera","Expo-sqlite","Expo-location"],
         keyFeatures: [
@@ -457,7 +457,7 @@ const projects = [
 
       {
         title: "ShoppingApp",
-        image: "/api/placeholder/400/300",
+        image: "/src/ProjectPics/restaurant.png",
         description: "A React-based shopping list application that uses Redux for state management and provides a seamless experience for managing your shopping needs.",
         techStack: ["React Native","Expo","JavaScript","CSS","Lucide-React-Native","React-redux-toolkit"],
         keyFeatures: [

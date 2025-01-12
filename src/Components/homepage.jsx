@@ -74,6 +74,12 @@ const HomePage = () => {
                 <span>CodeTribe Location: Soweto,</span>
                 <span>Mobile and Web Development</span>
               </div>
+              <div className="mt-4 flex flex-col justify-center  gap-2 text-indigo-600">
+                <Terminal className="w-4 h-4" />
+                <span>Mail: nhlakaniphoradebe337@gmail.com</span>
+                <span>Cell: 082 323 0382</span>
+                <span className="text-xs text-gray-500">Last Updated: 12/01/2025</span>
+              </div>
             </div>
 
             <div className="absolute -bottom-8 -left-8 animate-bounce">

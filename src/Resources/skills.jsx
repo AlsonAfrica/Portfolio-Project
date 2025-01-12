@@ -68,7 +68,7 @@ const skills = [
     {
       name: 'Firebase',
       icon: <Cpu className="w-8 h-8 text-blue-700" />,
-      proficiency: 'Beginner',
+      proficiency: 'Intermediate',
       examples: 'Authentication and Authorization, Database, Hosting',
     },
     {
