@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Crown } from 'lucide-react';
+import Resume from "../assets/Nhlakanipho_Alson_Radebe_Resume_2025.pdf"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     { name: 'Assessments', href: '/assessments' },
     { name: 'Feedback and Reflections', href: '/reflections' },
     { name: 'Contacts', href: '/contacts' },
-    { name: 'Resume', href: '../Resume/Nhlakanipho_Alson_Radebe_Resume_2025.pdf', download:true }
+    { name: 'Resume', href: Resume, download:true }
   ];
 
   return (
@@ -38,7 +39,7 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  download={item.download ? true: undefined}
+                  download={item.download ? "Nhlakanipho_Resume_2025.pdf": undefined}
                   className="px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition duration-150 ease-in-out"
                 >
                   {item.name}
