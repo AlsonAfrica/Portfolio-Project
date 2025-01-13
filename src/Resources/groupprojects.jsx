@@ -1,8 +1,11 @@
+import RestaurantPic from "/src/ProjectPics/restaurant.png"
+
+
 const GroupProjects = [
  
     {
       title: "Restaurant App",
-      image: "/src/ProjectPics/restaurant.png",
+      image:  RestaurantPic,
       description: "The Restaurant Reservation Platform is a full-stack application that connects diners with restaurants, enabling seamless reservation management and restaurant administration. The platform features a user-friendly interface for customers to make reservations and a powerful dashboard for restaurant managers.",
       techStack: ["React", "Node.js", "MongoDB", "Express", "Redux"],
       keyFeatures: [
