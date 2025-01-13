@@ -363,7 +363,7 @@ const projects = [
       },
 
       {
-        title: BirthdayCard,
+        title: "BirthdayCard",
         image: BirthdayPic,
         description: "Built in React Native, The Birthday Card App allows users to create custom birthday cards with personalized text, images, and decorations. Users can design unique cards, add custom messages, and enhance their cards with various creative elements.",
         techStack: ["React Native","CSS","JavaScript","Expo"],
