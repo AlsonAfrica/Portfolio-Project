@@ -152,7 +152,7 @@ const projects = [
           "Payment integration",
           "Data management through Redux"
         ],
-        demoLink: "hotelapp-umber.vercel.app",
+        demoLink: "https://hotel-react-7rdu.onrender.com/",
         githubLink: "https://github.com/AlsonAfrica/Hotel-React.git"
       },
 
