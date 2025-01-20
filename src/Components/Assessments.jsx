@@ -3,27 +3,20 @@ import { Github, ExternalLink, Calendar, Award, FileText } from 'lucide-react';
 
 const AssessmentTable = () => {
   const assessments = [
-    {
-      title: "Frontend Development Challenge",
-      gitLink: "https://github.com/username/frontend-challenge",
+    { 
+      title: "Hotel-App (React js)",
+      gitLink: "https://github.com/AlsonAfrica/Hotel-React.git",
       dateCompleted: "2024-01-15",
-      score: "95/100",
+      score: "50/100",
       notes: "Implemented responsive design with React and Tailwind CSS"
     },
     {
-      title: "API Integration Project",
-      gitLink: "https://github.com/username/api-project",
+      title: "Restaurant App (React Native)",
+      gitLink: "https://github.com/mLab-alscar-projects",
       dateCompleted: "2024-02-01",
       score: "90/100",
       notes: "Successfully integrated third-party APIs with error handling"
     },
-    {
-      title: "Database Design Assessment",
-      gitLink: "https://github.com/username/db-assessment",
-      dateCompleted: "2024-02-15",
-      score: "88/100",
-      notes: "Created optimized schema for e-commerce platform"
-    }
   ];
 
   return (
