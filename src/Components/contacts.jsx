@@ -1,11 +1,34 @@
 import React from 'react';
 import { Github, Mail, Phone, Instagram, MessageCircle } from 'lucide-react';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 
 const ContactPage = () => {
+  
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
+    emailjs
+      .sendForm('service_i0qam8i', 'template_da2hh6j', form.current, {
+        publicKey: '5rVThYqVMEGOGeeC_',
+      })
+      .then(
+        () => {
+          // console.log('SUCCESS!');
+          alert('Message sent successfully');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+
   };
+
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 p-8">
@@ -21,25 +44,31 @@ const ContactPage = () => {
               <h2 className="text-xl font-semibold text-purple-700">Get in Touch</h2>
             </div>
             <div className="p-6">
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} ref={form} className="space-y-4">
                 <div>
                   <input
                     type="text"
                     placeholder="Your Name"
+                    name="from_name"  
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                    required
                   />
                 </div>
                 <div>
                   <input
                     type="email"
                     placeholder="Your Email"
+                    name="from_email"
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                    required
                   />
                 </div>
                 <div>
                   <textarea
                     placeholder="Your Message"
+                    name="message"
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 min-h-[120px]"
+                    required
                   />
                 </div>
                 <button 

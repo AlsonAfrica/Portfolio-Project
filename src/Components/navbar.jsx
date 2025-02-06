@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Crown } from 'lucide-react';
-import Resume from "../assets/Nhlakanipho_Alson_Radebe_Resume_2025.pdf"
+import Resume from "../assets/Nhlakanipho-Alson-Radebe-Resume-2025.pdf (6).pdf"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
