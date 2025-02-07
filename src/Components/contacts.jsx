@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Mail, Phone, Instagram, MessageCircle } from 'lucide-react';
-import { useRef } from 'react';
+import { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -8,9 +8,22 @@ import emailjs from '@emailjs/browser';
 const ContactPage = () => {
   
   const form = useRef();
+  const [isSending, setIsSending] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const [formData, setFormData] = useState({
+    from_name:"",
+    from_email:"",
+    message:""
+  })
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setIsSending(true); 
 
     emailjs
       .sendForm('service_i0qam8i', 'template_da2hh6j', form.current, {
@@ -20,12 +33,15 @@ const ContactPage = () => {
         () => {
           // console.log('SUCCESS!');
           alert('Message sent successfully');
+          setFormData({ from_name: '', from_email: '', message: '' });
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
-      );
-
+      ) 
+      .finally(()=>{
+        setIsSending(false);
+      });
   };
 
 
@@ -50,6 +66,8 @@ const ContactPage = () => {
                     type="text"
                     placeholder="Your Name"
                     name="from_name"  
+                    value={formData.from_name}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     required
                   />
@@ -59,6 +77,8 @@ const ContactPage = () => {
                     type="email"
                     placeholder="Your Email"
                     name="from_email"
+                    value={formData.from_email}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     required
                   />
@@ -67,6 +87,9 @@ const ContactPage = () => {
                   <textarea
                     placeholder="Your Message"
                     name="message"
+                    formData={formData.message}
+                    value={formData.message}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 min-h-[120px]"
                     required
                   />
