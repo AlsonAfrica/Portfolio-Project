@@ -7,7 +7,7 @@ const AssessmentTable = () => {
       title: "Hotel-App (React js)",
       gitLink: "https://github.com/AlsonAfrica/Hotel-React.git",
       dateCompleted: "2024-01-15",
-      score: "50/100",
+      score: "70/100",
       notes: "Implemented responsive design with React and Tailwind CSS"
     },
     {

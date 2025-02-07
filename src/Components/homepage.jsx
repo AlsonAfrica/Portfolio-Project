@@ -62,7 +62,7 @@ const HomePage = () => {
               <p className="text-gray-600 leading-relaxed mb-6">
                 I am a Biokineticist graduate from the University of Johannesburg, deeply passionate about integrating health science with technology to enhance the well-being of both athletes and the general population. 
                 My journey into the world of technology began at Code Tribe Academy, where I had the opportunity to immerse myself in the MERN stack. Through hands-on project building, I gained valuable insights into the power of collaboration and effective learning, 
-                which have significantly shaped my approach to development
+                which have significantly shaped my approach to development.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 As I continue to grow in the tech industry, my aspirations are focused on becoming a full-stack developer. 
