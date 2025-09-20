@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Crown } from 'lucide-react';
-import Resume from "../assets/Nhlakanipho-Alson-Radebe-Resume-2025.pdf (6).pdf"
+import Resume from "../assets/Nhlakanipho_Radebe_Resume.pdf"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +9,8 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'Skills', href: '/skills' },
     { name: 'Projects', href: '/projects' },
-    { name: 'Assessments', href: '/assessments' },
-    { name: 'Feedback and Reflections', href: '/reflections' },
+    // { name: 'Assessments', href: '/assessments' },
+    // { name: 'Feedback and Reflections', href: '/reflections' },
     { name: 'Contacts', href: '/contacts' },
     { name: 'Resume', href: Resume, download:true }
   ];
