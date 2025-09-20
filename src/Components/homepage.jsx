@@ -78,7 +78,7 @@ const HomePage = () => {
                 <Terminal className="w-4 h-4" />
                 <span>Mail: nhlakaniphoradebe337@gmail.com</span>
                 <span>CellPhone: 082 323 0382</span>
-                <span className="text-xs text-gray-500">Last Updated: 07/02/2025</span>
+                <span className="text-xs text-gray-500">Last Updated: 20/09/2025</span>
               </div>
             </div>
 
