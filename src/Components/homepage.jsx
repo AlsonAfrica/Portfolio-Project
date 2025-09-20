@@ -44,7 +44,7 @@ const HomePage = () => {
               </h1>
               <p className="text-xl text-indigo-600 font-semibold flex items-center justify-center gap-2">
                 <Cpu className="w-5 h-5" />
-                Mern Stack Trainee
+                Junior Mern Stack Developer
               </p>
             </div>
           </div>
