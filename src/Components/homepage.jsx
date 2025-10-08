@@ -42,10 +42,27 @@ const HomePage = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
                 Nhlakanipho Alson Radebe
               </h1>
-              <p className="text-xl text-indigo-600 font-semibold flex items-center justify-center gap-2">
-                <Cpu className="w-5 h-5" />
-                Junior Mern Stack Developer
-              </p>
+             <p className="text-xl text-indigo-600 font-semibold flex items-center justify-center gap-3">
+  <span className="flex items-center gap-2">
+    {/* MongoDB */}
+    <span className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center text-white text-xs font-bold">
+      M
+    </span>
+    {/* Express */}
+    <span className="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-white text-xs font-bold">
+      E
+    </span>
+    {/* React */}
+    <span className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">
+      R
+    </span>
+    {/* Node.js */}
+    <span className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold">
+      N
+    </span>
+  </span>
+  Stack Developer
+</p>
             </div>
           </div>
 
@@ -62,20 +79,20 @@ const HomePage = () => {
               <p className="text-gray-600 leading-relaxed mb-6">
                 I am a Biokineticist graduate from the University of Johannesburg, deeply passionate about integrating health science with technology to enhance the well-being of both athletes and the general population. 
                 My journey into the world of technology began at Code Tribe Academy, where I had the opportunity to immerse myself in the MERN stack. Through hands-on project building, I gained valuable insights into the power of collaboration and effective learning, 
-                which have significantly shaped my approach to development.
+                which have significantly shaped my approach to development. 
               </p>
               <p className="text-gray-600 leading-relaxed">
-                As I continue to grow in the tech industry, my aspirations are focused on becoming a full-stack developer. 
+                {/* As I continue to grow in the tech industry, my aspirations are focused on becoming a full-stack developer. 
                 I aim to build applications that not only push the boundaries of technology but also make a positive impact on the health industry as a whole.
-                I believe that by combining my background in health sciences with my skills in technology, I can contribute to creating innovative solutions that improve lives and promote wellness.
+                I believe that by combining my background in health sciences with my skills in technology, I can contribute to creating innovative solutions that improve lives and promote wellness. */}
               </p>
               <div className="mt-4 flex items-center gap-2 text-indigo-600">
                 <Terminal className="w-4 h-4" />
-                <span>CodeTribe Location: Soweto,</span>
-                <span>Mobile and Web Development</span>
+                {/* <span>CodeTribe Location: Soweto,</span> */}
+                <span>Mobile and Web Developer</span>
               </div>
               <div className="mt-4 flex flex-col justify-center  gap-2 text-indigo-600">
-                <Terminal className="w-4 h-4" />
+                {/* <Terminal className="w-4 h-4" /> */}
                 <span>Mail: nhlakaniphoradebe337@gmail.com</span>
                 <span>CellPhone: 082 323 0382</span>
                 <span className="text-xs text-gray-500">Last Updated: 20/09/2025</span>

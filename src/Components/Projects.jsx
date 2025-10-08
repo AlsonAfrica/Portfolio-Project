@@ -168,7 +168,7 @@ const ProjectGrid = () => {
       {/* Group Projects */}
       <div className="text-center mb-12 mt-16">
         <h2 className="text-4xl font-bold text-gray-800 mb-4 animate-fade-in">
-          Group Projects
+          Collaborations Projects
         </h2>
         <div className="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
       </div>
