@@ -19,81 +19,97 @@ import ShoppingPic from "/src/ProjectPics/restaurant.png"
 
 const projects = [
     {
-      title: "X-pace UI Challenge",
-      image: UIPic,
-      description: "The Xpace Landing Page is a modern and visually appealing web page designed to introduce a team collaboration platform called Xpace",
-      techStack: ["React.JS", "CSS", "HTML","JavaScript"],
-      keyFeatures: [
-        "Responssive Layout",
-        "Grid Layout",
-      ],
-      challenges: [
-        "Layout Responsiveness",
-        "Element Alignment within containers"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/AlsonAfrica/UI-design.git"
+      title: "BirthdayCard",
+        image: BirthdayPic,
+        description: "Built in React Native, The Birthday Card App allows users to create custom birthday cards with personalized text, images, and decorations. Users can design unique cards, add custom messages, and enhance their cards with various creative elements.",
+        techStack: ["React Native","CSS","JavaScript","Expo"],
+        keyFeatures: [
+          "Card Creation",
+          "Text Editing",
+          "Image and Decoration Support",
+        ],
+        challenges: [
+          "Data handling",
+          "User Interface design"
+        ],
+        demoLink: "https://drive.google.com/file/d/13VO7SNfRWpx1jXTSUEZwGnnNzOlyrEDc/view?usp=sharing",
+        githubLink: "https://github.com/AlsonAfrica/BirthdayCard24.git"
     },
 
 
     {
-      title: "Yum-Yard Recipe App",
-      image: YarmyardPic,
-      description: "The Recipe App is a dynamic web application built using React, Vite, and Material-UI, designed to help users explore and manage recipes",
-      techStack: ["React.JS", "CSS", "HTML","JavaScript","Json-Server"],
-      keyFeatures: [
-        "Search Recipes",
-        "View Recipe Details",
-        "Responsive Design",
-        "Authentication and Authorization"
-      ],
-      challenges: [
-        "Authentication and Authorization using Json-Server",
-        "Responsive design",
-        "State Management"
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/AlsonAfrica/React-Recipe-App.git"
+       title: "Memo-Wave",
+        image:  MemoPic,
+        description: "This Audio Recording App is a digital journal designed for voice recording. The app allows users to record audio notes, play them back, delete unwanted notes, and manage voice note storage. The app is simple to use and provides an efficient way to manage voice recordings.",
+        techStack: ["React Native","CSS","JavaScript","Expo","Async-storage",],
+        keyFeatures: [
+          "Recording Functionality",
+          "List of Voice Notes",
+          "Playback Functionality",
+          "Delete Functionality",
+          "Create New Voice Note",
+          "Storage Management",
+          "Permissions Handling",
+          "Search Functionality"
+        ],
+        challenges: [
+          "Recording and storing the recorded note",
+          "Retrieving the recorded note",
+          "User Interface design"
+        ],
+        demoLink: "https://drive.google.com/file/d/1dLqbheRKFl30Q2o6HChYlwTEgpHAqoW1/view?usp=sharing",
+        githubLink: "https://github.com/AlsonAfrica/Memo-Wave.git"
     },
 
 
     {
-      title: "To-do-App-SQLite",
-      image: TodoPic,
-      description: "A modern, feature-rich Todo application built with React.js, Node.js, and SQLite that helps you organize your tasks efficiently.",
-      techStack: ["React", "SQLite", "CSS", "HTML","JavaScript","Node.js"],
-      keyFeatures: [
-        "Secure user registration and login system",
-        "To do's stored in SQlite for data persistance",
-        "Perform CRUD operations on added to do's",
-        "Task Management with Date, Time andd priority scheduling",
-        "Smart search functionality"
-      ],
-      challenges: [
-        "Storing and Retrieving tasks",
-        "Data management (State Management)",
-      ],
-      demoLink: "https://demo-link.com",
-      githubLink: "https://github.com/AlsonAfrica/To-do-App-SQLite.git"
+     title: "Memo-Wave-Auth",
+        image:  MemoPic,
+        description: "This project builds upon the previous Digital Journal App to create an enhanced Audio Recording App with additional features designed to improve user experience, security, and functionality.",
+        techStack: ["React Native","CSS","JavaScript","Expo","Async-storage","Firebase"],
+        keyFeatures: [
+          "Authetication and Authorization",
+          "Data sync to cloud",
+          "User Profile",
+          "Location search",
+          "Weather alerts",
+          "Recording Functionality",
+          "List of Voice Notes",
+          "Playback Functionality",
+          "Delete Functionality",
+          "Create New Voice Note",
+          "Storage Management",
+          "Permissions Handling",
+          "Search Functionality"
+        ],
+        challenges: [
+          "Audio synchronization to cloud",
+          "Optimizing weather data visualization"
+        ],
+        demoLink: "https://drive.google.com/file/d/1Oyh7PZT2HHnEQ_nDUOBytxK5csiGJ04X/view?usp=sharing",
+        githubLink: "https://github.com/AlsonAfrica/Memo-Wave-Auth.git"
     },
 
     {
-      title: "Registration App",
-      image: RegistrationPic,
-      description: "This is an Employee Management System, a web application designed to simplify and streamline the management of employee records. It allows organizations to efficiently handle employee information, track attendance, and manage performance evaluations. The app provides a user-friendly interface for HR departments to maintain accurate and up-to-date employee data.",
-      techStack: ["JavaScript","React","HTML","CSS","Material-UI"],
-      keyFeatures: [
-        "Authentication and Authorization",
-        "Employee Dashboard",
-        "Employee Directory",
-        "Crud operations on added employees"
-      ],
-      challenges: [
-        "Data Management",
-        "UI design"
-      ],
-      demoLink: "https://github.com/AlsonAfrica/React-App.git",
-      githubLink: "https://github.com/AlsonAfrica/React-App.git"
+     title: "Gallery-Suite",
+        image: CameraPic,
+        description: "The Gallery Application is a mobile app that allows users to view images, see their locations on a map using geolocation, and store metadata about each image in a local SQLite database. The application leverages geolocation features to tag images with their location and integrates a map view to display where the images were taken. SQLite is used for local data storage, ensuring fast and efficient data management.",
+        techStack: ["React Native","Expo","JavaScript","CSS","React-native-maps","Expo-camera","Expo-sqlite","Expo-location"],
+        keyFeatures: [
+          "Image Gallery",
+          "Geolocation Integration",
+          "Map Integration",
+          "SQLite Database",
+          "Search and Filter",
+          "Security and Permissions"
+        ],
+        challenges: [
+          "Setting up SQLite",
+          "Storing and retrieving data from the SQLite database",
+          "Managing data passing through components"
+        ],
+        demoLink: "https://drive.google.com/file/d/1wHfRSg_88aJivUoe5h1hjqsmiXXkPKvv/view?usp=sharing",
+        githubLink: "https://github.com/AlsonAfrica/Gallery-Suite.git"
     },
 
     {
@@ -362,46 +378,42 @@ const projects = [
         githubLink: "https://github.com/AlsonAfrica/Recipe-App-Node-Mongo-.git"
       },
 
-      {
-        title: "BirthdayCard",
-        image: BirthdayPic,
-        description: "Built in React Native, The Birthday Card App allows users to create custom birthday cards with personalized text, images, and decorations. Users can design unique cards, add custom messages, and enhance their cards with various creative elements.",
-        techStack: ["React Native","CSS","JavaScript","Expo"],
-        keyFeatures: [
-          "Card Creation",
-          "Text Editing",
-          "Image and Decoration Support",
-        ],
-        challenges: [
-          "Data handling",
-          "User Interface design"
-        ],
-        demoLink: "https://github.com/AlsonAfrica/BirthdayCard24.git",
-        githubLink: "https://github.com/AlsonAfrica/BirthdayCard24.git"
-      },
+      // {
+      //   title: "BirthdayCard",
+      //   image: BirthdayPic,
+      //   description: "Built in React Native, The Birthday Card App allows users to create custom birthday cards with personalized text, images, and decorations. Users can design unique cards, add custom messages, and enhance their cards with various creative elements.",
+      //   techStack: ["React Native","CSS","JavaScript","Expo"],
+      //   keyFeatures: [
+      //     "Card Creation",
+      //     "Text Editing",
+      //     "Image and Decoration Support",
+      //   ],
+      //   challenges: [
+      //     "Data handling",
+      //     "User Interface design"
+      //   ],
+      //   demoLink: "https://github.com/AlsonAfrica/BirthdayCard24.git",
+      //   githubLink: "https://github.com/AlsonAfrica/BirthdayCard24.git"
+      // },
 
       {
-        title: "Memo-Wave",
-        image:  MemoPic,
-        description: "This Audio Recording App is a digital journal designed for voice recording. The app allows users to record audio notes, play them back, delete unwanted notes, and manage voice note storage. The app is simple to use and provides an efficient way to manage voice recordings.",
-        techStack: ["React Native","CSS","JavaScript","Expo","Async-storage",],
-        keyFeatures: [
-          "Recording Functionality",
-          "List of Voice Notes",
-          "Playback Functionality",
-          "Delete Functionality",
-          "Create New Voice Note",
-          "Storage Management",
-          "Permissions Handling",
-          "Search Functionality"
-        ],
-        challenges: [
-          "Recording and storing the recorded note",
-          "Retrieving the recorded note",
-          "User Interface design"
-        ],
-        demoLink: "https://github.com/AlsonAfrica/Memo-Wave.git",
-        githubLink: "https://github.com/AlsonAfrica/Memo-Wave.git"
+        title: "Yum-Yard Recipe App",
+      image: YarmyardPic,
+      description: "The Recipe App is a dynamic web application built using React, Vite, and Material-UI, designed to help users explore and manage recipes",
+      techStack: ["React.JS", "CSS", "HTML","JavaScript","Json-Server"],
+      keyFeatures: [
+        "Search Recipes",
+        "View Recipe Details",
+        "Responsive Design",
+        "Authentication and Authorization"
+      ],
+      challenges: [
+        "Authentication and Authorization using Json-Server",
+        "Responsive design",
+        "State Management"
+      ],
+      demoLink: "https://demo-link.com",
+      githubLink: "https://github.com/AlsonAfrica/React-Recipe-App.git"
       },
 
       {
@@ -451,25 +463,22 @@ const projects = [
       },
 
       {
-        title: "Gallery-Suite",
-        image: CameraPic,
-        description: "The Gallery Application is a mobile app that allows users to view images, see their locations on a map using geolocation, and store metadata about each image in a local SQLite database. The application leverages geolocation features to tag images with their location and integrates a map view to display where the images were taken. SQLite is used for local data storage, ensuring fast and efficient data management.",
-        techStack: ["React Native","Expo","JavaScript","CSS","React-native-maps","Expo-camera","Expo-sqlite","Expo-location"],
-        keyFeatures: [
-          "Image Gallery",
-          "Geolocation Integration",
-          "Map Integration",
-          "SQLite Database",
-          "Search and Filter",
-          "Security and Permissions"
-        ],
-        challenges: [
-          "Setting up SQLite",
-          "Storing and retrieving data from the SQLite database",
-          "Managing data passing through components"
-        ],
-        demoLink: "https://github.com/AlsonAfrica/Gallery-Suite.git",
-        githubLink: "https://github.com/AlsonAfrica/Gallery-Suite.git"
+        title: "Registration App",
+      image: RegistrationPic,
+      description: "This is an Employee Management System, a web application designed to simplify and streamline the management of employee records. It allows organizations to efficiently handle employee information, track attendance, and manage performance evaluations. The app provides a user-friendly interface for HR departments to maintain accurate and up-to-date employee data.",
+      techStack: ["JavaScript","React","HTML","CSS","Material-UI"],
+      keyFeatures: [
+        "Authentication and Authorization",
+        "Employee Dashboard",
+        "Employee Directory",
+        "Crud operations on added employees"
+      ],
+      challenges: [
+        "Data Management",
+        "UI design"
+      ],
+      demoLink: "https://github.com/AlsonAfrica/React-App.git",
+      githubLink: "https://github.com/AlsonAfrica/React-App.git"
       },
 
       {
@@ -489,7 +498,7 @@ const projects = [
         challenges: [
           "Managing data through redux",
         ],
-        demoLink: "https://github.com/AlsonAfrica/ShoppingApp.git",
+        demoLink: "https://drive.google.com/file/d/17nInCtbvYf1q4aExYsJwSYlU0DoPX_cj/view?usp=drive_link",
         githubLink: "https://github.com/AlsonAfrica/ShoppingApp.git"
       },
 

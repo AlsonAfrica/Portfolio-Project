@@ -26,7 +26,7 @@ const GroupProjects = [
         "I learned a lot about backend architecture from my partner, and they appreciated my user-focused design approach",
         "Our mutual support and shared commitment to the project made the experience both productive and enjoyable"
       ],
-      demoLink: "https://github.com/mLab-alscar-projects",
+      demoLink: "https://drive.google.com/file/d/17nInCtbvYf1q4aExYsJwSYlU0DoPX_cj/view?usp=sharing",
       githubLink: "https://github.com/mLab-alscar-projects"
     },
   ]

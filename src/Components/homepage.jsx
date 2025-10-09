@@ -1,6 +1,7 @@
-import React from 'react';
-import { Star, Sparkles, Code, Terminal, Cpu, Database } from 'lucide-react';
-import image from '../assets/Me.jpg'
+import React from "react";
+import { Star, Sparkles, Code, Terminal, Cpu, Database } from "lucide-react";
+import image from "../assets/Me.jpg";
+import { SiLinkedin, SiGithub, SiWhatsapp } from "react-icons/si";
 
 const HomePage = () => {
   return (
@@ -10,9 +11,13 @@ const HomePage = () => {
         <div className="absolute inset-0 overflow-hidden opacity-5">
           <div className="grid grid-cols-8 gap-4 transform -rotate-12 scale-150">
             {[...Array(64)].map((_, i) => (
-              <div key={i} className="h-8 bg-indigo-600/20 animate-pulse" style={{
-                animationDelay: `${i * 0.1}s`
-              }}/>
+              <div
+                key={i}
+                className="h-8 bg-indigo-600/20 animate-pulse"
+                style={{
+                  animationDelay: `${i * 0.1}s`,
+                }}
+              />
             ))}
           </div>
         </div>
@@ -22,7 +27,7 @@ const HomePage = () => {
           <div className="space-y-6 animate-fade-in">
             <div className="relative max-w-md mx-auto">
               <div className="aspect-square w-64 h-64 mx-auto rounded-full overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 border-4 border-white relative">
-                <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-transparent pointer-events-none"/>
+                <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-transparent pointer-events-none" />
                 <img
                   src={image}
                   alt="Profile"
@@ -35,35 +40,71 @@ const HomePage = () => {
               <Terminal className="absolute bottom-0 right-0 w-8 h-8 text-indigo-600 animate-pulse" />
             </div>
 
-            <div className="text-center relative">
-              <div className="absolute -left-8 top-0 animate-float">
-                <Code className="w-6 h-6 text-indigo-400" />
-              </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
-                Nhlakanipho Alson Radebe
-              </h1>
-             <p className="text-xl text-indigo-600 font-semibold flex items-center justify-center gap-3">
-  <span className="flex items-center gap-2">
-    {/* MongoDB */}
-    <span className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center text-white text-xs font-bold">
-      M
+           <div className="text-center relative">
+  <div className="absolute -left-8 top-0 animate-float">
+    <Code className="w-6 h-6 text-indigo-400" />
+  </div>
+
+  <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
+    Nhlakanipho Alson Radebe
+  </h1>
+
+  <p className="text-xl text-indigo-600 font-semibold flex items-center justify-center gap-3">
+    <span className="flex items-center gap-2">
+      {/* MongoDB */}
+      <span className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center text-white text-xs font-bold">
+        M
+      </span>
+      {/* Express */}
+      <span className="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-white text-xs font-bold">
+        E
+      </span>
+      {/* React */}
+      <span className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">
+        R
+      </span>
+      {/* Node.js */}
+      <span className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold">
+        N
+      </span>
     </span>
-    {/* Express */}
-    <span className="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-white text-xs font-bold">
-      E
-    </span>
-    {/* React */}
-    <span className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">
-      R
-    </span>
-    {/* Node.js */}
-    <span className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold">
-      N
-    </span>
-  </span>
-  Stack Developer
-</p>
-            </div>
+    Stack Developer
+  </p>
+
+  {/* Social Icons */}
+  <div className="flex justify-center gap-4 mt-5">
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/nhlakanipho-alson-radebe-83559a288/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-full bg-blue-700 flex items-center justify-center text-white hover:bg-blue-800 transition"
+        >
+          <SiLinkedin className="w-5 h-5" />
+        </a>
+
+        {/* GitHub */}
+        <a
+          href="https://github.com/AlsonAfrica?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-gray-900 transition"
+        >
+          <SiGithub className="w-5 h-5" />
+        </a>
+
+        {/* WhatsApp */}
+        <a
+          href="https://wa.me/0823230382"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white hover:bg-green-600 transition"
+        >
+          <SiWhatsapp className="w-5 h-5" />
+        </a>
+      </div>
+</div>
+
           </div>
 
           {/* Right Column */}
@@ -77,9 +118,15 @@ const HomePage = () => {
                 <Sparkles className="w-5 h-5 ml-2 text-indigo-600" />
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I am a Biokineticist graduate from the University of Johannesburg, deeply passionate about integrating health science with technology to enhance the well-being of both athletes and the general population. 
-                My journey into the world of technology began at Code Tribe Academy, where I had the opportunity to immerse myself in the MERN stack. Through hands-on project building, I gained valuable insights into the power of collaboration and effective learning, 
-                which have significantly shaped my approach to development. 
+                I am a Biokineticist graduate from the University of
+                Johannesburg, deeply passionate about integrating health science
+                with technology to enhance the well-being of both athletes and
+                the general population. My journey into the world of technology
+                began at Code Tribe Academy, where I had the opportunity to
+                immerse myself in the MERN stack. Through hands-on project
+                building, I gained valuable insights into the power of
+                collaboration and effective learning, which have significantly
+                shaped my approach to development.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 {/* As I continue to grow in the tech industry, my aspirations are focused on becoming a full-stack developer. 
@@ -95,7 +142,9 @@ const HomePage = () => {
                 {/* <Terminal className="w-4 h-4" /> */}
                 <span>Mail: nhlakaniphoradebe337@gmail.com</span>
                 <span>CellPhone: 082 323 0382</span>
-                <span className="text-xs text-gray-500">Last Updated: 20/09/2025</span>
+                <span className="text-xs text-gray-500">
+                  Last Updated: 20/09/2025
+                </span>
               </div>
             </div>
 
@@ -111,8 +160,12 @@ const HomePage = () => {
 
       <style jsx>{`
         @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
         }
         .animate-spin-slow {
           animation: spin-slow 8s linear infinite;
@@ -131,8 +184,13 @@ const HomePage = () => {
           animation: fade-in 1s ease-out forwards;
         }
         @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-10px); }
+          0%,
+          100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
         }
         .animate-float {
           animation: float 3s ease-in-out infinite;
